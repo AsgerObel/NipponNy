@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log ind / Tilmeld dig</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<nav>
+      
+    <a href="index.html">
+    <div class="logo">
+      <img src="images/Group 11.png" alt="logo" class="logo">
+    </div>
+</a>
+   
+   
+    <div class="nav">
+    <ul>
+      <li><a href="#home">Bestil 注文</a></li>
+      <li><a href="retter.html">Retter 料理</a></li>
+      <li><a href="vejledning.html">Vejledning ガイダンス</a></li>
+    </ul>
+</div>
+    
+    <div class="icons">
+        <img src="images/profil.png" alt="profil" class="profile-icon">
+        <img src="images/kurv.png" alt="kurv" class="basket-icon">
+
+   
+    </div>
+</nav>
+
+
+
+
+<body>
+    <div class="login-signup-container">
+        <div class="login-signup-form-container">
+            <form id="loginForm" class="login-signup-form">
+                <h4 class="login-signup-heading">Log ind</h4>
+                <input type="email" placeholder="E-mail" required class="login-signup-input">
+                <input type="password" placeholder="Adgangskode" required class="login-signup-input">
+                <button type="submit" class="login-signup-button">Log ind</button>
+                <div class="login-signup-toggle">
+                    <p>Ny kunde? <a href="#" id="toggleSignup" class="login-signup-link">Tilmeld dig</a></p>
+                </div>
+            </form>
+            <form id="signupForm" class="login-signup-form" style="display: none;">
+                <h4 class="login-signup-heading">Tilmeld dig</h4>
+                <input type="text" placeholder="Fulde navn" required class="login-signup-input">
+                <input type="email" placeholder="E-mail" required class="login-signup-input">
+                <input type="password" placeholder="Adgangskode" required class="login-signup-input">
+                <input type="password" placeholder="Bekræft adgangskode" required class="login-signup-input">
+                <button type="submit" class="login-signup-button">Tilmeld dig</button>
+                <div class="login-signup-toggle">
+                    <p>Har du allerede en konto? <a href="#" id="toggleLogin" class="login-signup-link">Log ind</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+  
+    <footer>
+        <div class="social-icons">
+            <a href="#" alt="Facebook">
+                <img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="#" aria-label="Instagram">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+            <a href="#" aria-label="Twitter">
+                <img src="images/twitter.png" alt="twitter">
+            </a>
+            <a href="#" aria-label="Email">
+                <img src="images/mail.png" alt="mail">
+            </a>
+        </div>
+        
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">Nyheder</a>
+            <a href="#">Om os</a>
+            <a href="#">Kontakt</a>
+            <a href="#">FAQ</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>

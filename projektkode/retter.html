@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nippon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <nav>
+       
+        <a href="index.html">
+            <div class="logo">
+              <img src="images/Group 11.png" alt="logo" class="logo">
+            </div>
+        </a>
+       
+        <div class="nav">
+        <ul>
+          <li><a href="#home">Bestil 注文</a></li>
+          <li><a href="retter.html">Retter 料理</a></li>
+          <li><a href="vejledning.html">Vejledning ガイダンス</a></li>
+        </ul>
+    </div>
+        
+        <div class="icons">
+            <a href="profil.html">
+            <img src="images/profil.png" alt="profil" class="profile-icon">
+        </a>
+            <img src="images/kurv.png" alt="kurv" class="basket-icon">
+
+       
+        </div>
+    </nav>
+    
+
+
+
+    <h3>Retter</h3>
+    <div class="meal-container">
+      
+        <div class="meal-box">
+            <img src="images/ret1.webp" alt="Japansk Wok" class="meal-image">
+            <div class="meal-info">
+                <h3>Japansk Wok</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut neque tempora, quas voluptate laudantium adipisci velit non enim magni repellat eius aut tenetur consequuntur excepturi, laborum odit placeat quasi nobis.
+                
+                    <a href="vejledning.html">
+                        <button>læs mere</button>
+                      </a>
+                
+                    </p>
+
+            </div>
+            <div class="meal-icons">
+                <div class="left-icons">
+                    <img src="images/vegansk.svg" a href="index.html" alt="Vegan" class="icon">
+                </div>
+                <div class="heart-icon" title="Save this meal">
+                    <img src="images/test1.png" alt="Save" class="icon"/>
+                </div>
+            </div>
+           
+            <button class="add-to-basket" onclick="addToCart()">Tilføj til kurv</button>
+        
+        
+        
+        </div>
+        
+
+       
+        <div class="meal-box">
+            <img src="images/ret2.webp" alt="Ramen" class="meal-image">
+            <div class="meal-info">
+                <h3>Ramen</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit commodi hic non explicabo unde temporibus voluptatum, minus accusamus cumque atque dolor, sit ipsum excepturi ut cum voluptatem perspiciatis! Vero.</p>
+            </div>
+            <div class="meal-icons">
+                <div class="left-icons">
+                    <img src="images/staerk.svg" alt="Spicy" class="icon" title="Spicy dish">
+                </div>
+                <div class="heart-icon" title="Save this meal">
+                    <img src="images/test1.png" alt="Save" class="icon"/>
+                </div>
+            </div>
+            <button class="add-to-basket">Tilføj til kurv</button>
+        </div>
+      
+        <div class="meal-box">
+            <img src="images/ret3.webp" alt="Japansk Lasagne" class="meal-image">
+            <div class="meal-info">
+                <h3>Japansk Lasagne</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum repellat culpa quibusdam assumenda consectetur! Harum facilis, repellendus illo dicta, facere nisi enim possimus vitae neque nam laboriosam quidem ratione.</p>
+            </div>
+            <div class="meal-icons">
+                <div class="left-icons">
+                    <img src="images/koed.svg" alt="Lasagne" class="icon">
+                </div>
+                <div class="heart-icon">
+                    <img src="images/test1.png" alt="Save" class="icon"/>
+                </div>
+            </div>
+            <button class="add-to-basket">Tilføj til kurven</button>
+        </div>
+    
+        <div class="meal-box">
+            <img src="images/ret4.webp" alt="" class="meal-image">
+            <div class="meal-info">
+                <h3>Wok med rejer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, distinctio quod pariatur quasi reprehenderit minima! Esse consectetur rem cupiditate, facere amet ipsum tempora commodi maiores ducimus sequi, vel modi maxime.</p>
+            </div>
+            <div class="meal-icons">
+                <div class="left-icons">
+                    <img src="images/koed.svg" alt="Rejer wok" class="icon">
+                </div>
+                <div class="heart-icon">
+                    <img src="images/test1.png" alt="Save" class="icon"/>
+                </div>
+            </div>
+            <button class="add-to-basket">Tilføj til kurv</button>
+        </div>
+       
+        <div class="meal-box">
+            <img src="images/ret5.webp" alt="Dumplings" class="meal-image">
+            <div class="meal-info">
+                <h3>Dumplings</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolores sed neque blanditiis eius beatae alias perspiciatis. Ad similique architecto tenetur veniam assumenda delectus eligendi voluptatibus. Totam provident eveniet natus?</p>
+            </div>
+         
+                <div class="meal-icons">
+                    <div class="left-icons">
+                        <img src="images/staerk.svg" alt="stærk" class="icon">
+                    </div>
+                <div class="heart-icon" title="Save this meal">
+                    <img src="images/test1.png" alt="Save" class="icon"/>
+                </div>
+            </div>
+            <button class="add-to-basket">Tilføj til kurv</button>
+        </div>
+     
+        <div class="meal-box">
+            <img src="images/ret6.webp" alt="Kylling" class="meal-image">
+            <div class="meal-info">
+                <h3>Kylling Teriyaki</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur dolor quisquam eligendi aspernatur libero dolores architecto. Totam et odio hic? Porro molestiae sequi eum maiores quo, eius recusandae voluptatem!</p>
+            </div>
+            <div class="meal-icons">
+                <div class="left-icons">
+                    <img src="images/koed.svg" alt="kylling" class="icon">
+                </div>
+                <div class="heart-icon" title="Save this meal">
+                    <img src="images/test1.png" alt="Save" class="icon"/>
+                </div>
+            </div>
+            <button class="add-to-basket">Tilføj til kurven</button>
+        </div>
+      
+        <div class="meal-box">
+            <img src="images/ret7.webp" alt="Edamame" class="meal-image">
+            <div class="meal-info">
+                <h3>Vegansk Wok</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sit quia molestiae at eos voluptatibus natus atque corporis dolorem aperiam cupiditate amet facilis illum temporibus distinctio itaque, optio dignissimos alias.</p>
+            </div>
+            <div class="meal-icons">
+                <div class="left-icons">
+                    <img src="images/vegansk.svg" alt="Vegan" class="icon">
+                </div>
+                <div class="heart-icon" title="Save this meal">
+                    <img src="images/test1.png" alt="Save" class="icon"/>
+                </div>
+            </div>
+            <button class="add-to-basket">Tilføj til kurven</button>
+        </div>
+        
+        <div class="meal-box">
+            <img src="images/ret8.webp" alt="Gyoza" class="meal-image">
+            <div class="meal-info">
+                <h3>Wok med svinekød</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias obcaecati libero quos pariatur magni rerum quisquam facilis! Ex incidunt dicta deleniti numquam voluptatem fugiat. Facilis quia fugiat ullam quae.</p>
+            </div>
+            <div class="meal-icons">
+                <div class="left-icons">
+                    <img src="images/staerk.svg" alt="Spicy" class="icon">
+                </div>
+                <div class="heart-icon">
+                    <img src="images/test1.png" alt="Save" class="icon"/>
+                </div>
+            </div>
+            <button class="add-to-basket">Tilføj til</button>
+        </div>
+   
+        <div class="meal-box">
+            <img src="images/ret9.webp" alt="Yakitori" class="meal-image">
+            <div class="meal-info">
+                <h3>Nudelret</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus blanditiis corporis maxime error ratione, at minus atque deserunt tempore, provident modi dolore nihil. Quis ad consectetur eveniet doloribus rerum dolorem?</p>
+            </div>
+            <div class="meal-icons">
+                <div class="left-icons">
+                    <img src="images/koed.svg" alt="koed" class="icon">
+                </div>
+                <div class="heart-icon" title="Save this meal">
+                    <img src="images/test1.png" alt="Save" class="icon"/>
+                </div>
+            </div>
+            <button class="add-to-basket">Tilføj til kurven</button>
+        </div>
+    
+        <div class="meal-box">
+            <img src="images/ret10.webp" alt="Curry Rice" class="meal-image">
+            <div class="meal-info">
+                <h3>Japansk Boller i Karry</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur harum ad cumque provident, tempore nesciunt similique dignissimos praesentium temporibus fugit, sint, illo id porro corporis illum maiores! Ullam, magnam sunt.</p>
+            </div>
+            <div class="meal-icons">
+                <div class="left-icons">
+                    <img src="images/koed.svg" alt="kod" class="icon">
+                </div>
+                <div class="heart-icon" title="Save this meal">
+                    <img src="images/test1.png" alt="Save" class="icon"/>
+                </div>
+            </div>
+            <button class="add-to-basket">Tilføj til kurven</button>
+        </div>
+      
+        <div class="meal-box">
+            <img src="images/ret12.svg" alt="Soba Noodles" class="meal-image">
+            <div class="meal-info">
+                <h3>Japansk Burger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat incidunt magni minima veniam quisquam cum dignissimos facere libero! Dignissimos delectus perspiciatis nisi harum expedita laudantium corporis neque nesciunt! Consequatur, necessitatibus?</p>
+            </div>
+            <div class="meal-icons">
+                <div class="left-icons">
+                    <img src="images/vegansk.svg" alt="Vegan" class="icon">
+                </div>
+                <div class="heart-icon" title="Save this meal">
+                    <img src="images/test1.png" alt="Save" class="icon"/>
+                </div>
+            </div>
+            <button class="add-to-basket">Tilføj til kurven</button>
+        </div>
+   
+        <div class="meal-box">
+            <img src="images/ret13.svg" alt="wok" class="meal-image">
+            <div class="meal-info">
+                <h3>Tradionel wok</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, in? Quos, optio modi culpa dolorem suscipit quibusdam reiciendis amet obcaecati! Doloremque distinctio fugiat id quos, placeat necessitatibus voluptate veniam laboriosam.</p>
+            </div>
+            <div class="meal-icons">
+                <div class="left-icons">
+                    <img src="images/koed.svg" alt="kød" class="icon">
+                </div>
+                <div class="heart-icon" title="Save this meal">
+                    <img src="images/test1.png" alt="Save" class="icon" />
+                </div>
+            </div>
+            <button class="add-to-basket">Tilføj til kurven</button>
+        </div>
+        
+    </div>
+
+
+    <div class="legend">
+        <h3> (づ ◕‿◕ )づ </h3>
+        <ul>
+            <li><img src="images/vegansk.svg" alt="Vegansk" class="icon"> Vegansk</li>
+            <li><img src="images/staerk.svg" alt="Stærk" class="icon"> Stærkt</li>
+            <li><img src="images/glutenfri.svg" alt="Glutenfri" class="icon"> Glutenfri</li>
+            <li><img src="images/koed.svg" alt="koed" class="icon" >Indeholder kød</li>
+            <li><img src="images/test1.png" alt="favorit" class="icon"> Gem til favoritter</li>
+        </ul>
+    </div>
+
+    
+    <footer>
+        <div class="social-icons">
+            <a href="#" alt="Facebook">
+                <img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="#" aria-label="Instagram">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+            <a href="#" aria-label="Twitter">
+                <img src="images/twitter.png" alt="twitter">
+            </a>
+            <a href="#" aria-label="Email">
+                <img src="images/mail.png" alt="mail">
+            </a>
+        </div>
+        
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">Nyheder</a>
+            <a href="#">Om os</a>
+            <a href="#">Kontakt</a>
+            <a href="#">FAQ</a>
+        </div>
+    </footer>
+
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
